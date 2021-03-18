@@ -28,7 +28,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+  // 引用的是 layouts/blog.vue
+  // layout() {
+  //   return 'blog/index'
+  // }
+}
 </script>
 
 <style>
