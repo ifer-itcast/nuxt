@@ -3,16 +3,16 @@
     <div class="header">
       <ul>
         <li>
-          <a href="">首页</a>
+          <nuxt-link to="/">首页</nuxt-link>
         </li>
         <li>
-          <a href="">文章</a>
+          <nuxt-link to="/article">文章</nuxt-link>
         </li>
         <li>
-          <a href="">问答</a>
+          <nuxt-link to="/">问答</nuxt-link>
         </li>
         <li>
-          <a href="">个人中心</a>
+          <nuxt-link to="/">个人中心</nuxt-link>
         </li>
       </ul>
     </div>
