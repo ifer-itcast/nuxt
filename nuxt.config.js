@@ -25,7 +25,8 @@ export default {
   plugins: [
     '~/plugins/vue-inject.js',
     '~/plugins/ctx-inject.js',
-    '@/plugins/all-inject.js'
+    '@/plugins/all-inject.js',
+    '@/plugins/interceptor.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
