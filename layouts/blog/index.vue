@@ -1,6 +1,6 @@
 <template>
   <div>
     <div>博客导航栏</div>
-    <next/>
+    <Nuxt />
   </div>
 </template>
