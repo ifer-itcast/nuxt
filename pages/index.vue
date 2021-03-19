@@ -44,7 +44,7 @@ export default {
     });
   }, */
   async asyncData({$axios}) {
-    const { data: { data } } = await $axios.get('https://mock.mengxuegu.com/mock/6054bf950d58b864da03d161/blog-web/test')
+    const { data: { data } } = await $axios.get('/test')
     return { data };
   },
 }

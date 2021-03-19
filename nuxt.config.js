@@ -39,6 +39,18 @@ export default {
   modules: [
     '@nuxtjs/axios'
   ],
+  axios: {
+    proxy: true, // 开启代理转发
+    prefix: '/api' // 请求接口自动添加 /api 前缀
+  },
+  proxy: { // 代理转发
+    '/api': {
+      target: 'https://mock.mengxuegu.com/mock/6054bf950d58b864da03d161/blog-web',
+      pathRewrite: {
+        '^/api': ''
+      }
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
