@@ -43,8 +43,12 @@ export default {
       return { data };
     });
   }, */
-  async asyncData({$axios}) {
+  /* async asyncData({$axios}) {
     const { data: { data } } = await $axios.get('/test')
+    return { data };
+  }, */
+  async asyncData({$axios, app}) {
+    const { data: { data } } = await app.$test()
     return { data };
   },
 }

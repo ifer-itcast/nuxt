@@ -27,6 +27,7 @@ export default {
     '~/plugins/ctx-inject.js',
     '@/plugins/all-inject.js',
     '@/plugins/interceptor.js',
+    '@/api/test.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
